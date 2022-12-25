@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "Playfair Display";
+  padding: 70px 0 0 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1062px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #626262;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.link {
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+.header__row {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+.header__name {
+  font-family: Inconsolata;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  margin: 0 250px 0 0;
+}
+.header__item {
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.image__row {
+  display: flex;
+}
+.image__body {
+  margin: 77px 0 100px 0;
+}
+
+.paragraph__row {
+  display: flex;
+}
+.paragraph__body {
+  margin: 0 0px 100px 0px;
+}
+.paragraph__title {
+  margin: 25px 0 30px 0;
+}
+.paragraph__text {
+  margin: 0 0 30px 0;
+}
+.paragraph__comment {
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+.columns__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px -30px;
+}
+.columns__item {
+  flex: 0 1 50%;
+  padding: 0px 30px;
+}
+
+.item__body {
+  flex: 1 1 auto;
+}
+.item__row {
+  display: flex;
+  justify-content: center;
+}
+.item__image {
+  margin: 0 0 18px 0;
+}
+.item__title {
+  margin: 18px 0 18px 0;
+}
+.item__text {
+  margin: 0 0 100px 0;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  height: 100px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 45px 0;
+}
+.footer__left {
+  display: flex;
+}
+.footer__right {
+  display: flex;
+}
+.footer__text {
+  font-size: 14px;
+  padding: 0 16px 0 0;
+}
+.footer__item {
+  padding: 0 16px 0 0;
+}
